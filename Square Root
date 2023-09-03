@@ -3,3 +3,10 @@ n = int(input())
 sq = n**0.5
 
 print(sq)
+
+##Using Built-in
+n = int(input())
+
+sq = pow(n,0.5)
+
+print(sq)
