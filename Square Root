@@ -1,12 +1,16 @@
+##Method 1
 n = int(input())
-
 sq = n**0.5
-
 print(sq)
 
-##Using Built-in
+
+#Method 2
 n = int(input())
-
 sq = pow(n,0.5)
+print(sq)
 
+##Method 3
+import math
+n = int(input())
+sq = math.sqrt(n)
 print(sq)
