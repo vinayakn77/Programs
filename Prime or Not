@@ -1,0 +1,16 @@
+n = int(input())
+
+flag = False
+
+if n == 1:
+    print("Not a prime")
+    
+for i in range(2,n):
+    if (n % i) == 0:
+        flag == True
+        break
+    
+if flag == True:
+    print("Not a Prime")
+else:
+    print("Prime")
