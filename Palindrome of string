@@ -1,0 +1,9 @@
+	def isPalindrome(self, S):
+		# code here
+		p = S[::-1]
+		if p == S:
+		    return 1
+		else:
+		    return 0
+S = input()
+print(isPalindrome(S))
